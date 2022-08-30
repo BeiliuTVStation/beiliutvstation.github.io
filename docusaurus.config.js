@@ -2,11 +2,11 @@ module.exports = {
   // plugins: [require.resolve("docusaurus-plugin-less")],
   title: '北流市电视台',
   tagline: '创新、求真、务实、传播',
-  url: 'https://seven-innovation-base.github.io',
+  url: 'https://beiliutvstation.github.io/',
   baseUrl: '/',
   favicon: 'img/logo.png',
-  organizationName: 'seven-innovation-base', // Usually your GitHub org/user name.
-  projectName: 'seven-innovation-base.github.io', // Usually your repo name.
+  organizationName: 'beiliutvstation', // Usually your GitHub org/user name.
+  projectName: 'beiliutvstation.github.io', // Usually your repo name.
   deploymentBranch: 'master',
   themeConfig: {
     hideableSidebar: true,
@@ -38,7 +38,7 @@ module.exports = {
 		  position: 'left'
 		},
         {
-          href: 'https://github.com/seven-innovation-base/',
+          href: 'https://github.com/BeiliuTVStation/',
           className: 'header-github-link',
           position: 'right',
         },
