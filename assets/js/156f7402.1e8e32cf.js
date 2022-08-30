@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkseven_innovation_base_website=self.webpackChunkseven_innovation_base_website||[]).push([[1386],{95264:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","name":"question","count":1,"permalink":"/blog/tags/question"}')}}]);
