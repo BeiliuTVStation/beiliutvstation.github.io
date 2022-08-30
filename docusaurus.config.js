@@ -1,7 +1,7 @@
 module.exports = {
   // plugins: [require.resolve("docusaurus-plugin-less")],
-  title: '数学与计算科学学院创新实践基地',
-  tagline: '真实、专注、卓越、不设限、创新',
+  title: '北流市电视台',
+  tagline: '创新、求真、务实、传播',
   url: 'https://seven-innovation-base.github.io',
   baseUrl: '/',
   favicon: 'img/logo.png',
@@ -11,7 +11,7 @@ module.exports = {
   themeConfig: {
     hideableSidebar: true,
     navbar: {
-      title: '数学与计算科学学院创新实践基地',
+      title: '北流市电视台',
       logo: {
         alt: 'Site Logo',
         src: 'img/logo.png',
