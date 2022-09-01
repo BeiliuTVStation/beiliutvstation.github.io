@@ -37,12 +37,7 @@ function MembersWall() {
         </div>
         <div className="text--center margin-vert--lg">
           <p>
-            <a
-              className={'button button--lg button--primary'}
-              href={"https://github.com/seven-innovation-base/official-website/edit/main/src/data/members.data.ts"}
-              target={'_blank'}>
-              送我上墙
-              </a>
+            
           </p>
         </div>
       </main>

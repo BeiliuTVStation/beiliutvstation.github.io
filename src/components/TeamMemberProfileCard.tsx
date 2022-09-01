@@ -30,12 +30,12 @@ export default function TeamMemberProfileCard({
           <div className="button-group button-group--block">
             {githubUrl && (
               <a className="button button--secondary" href={githubUrl} target="_blank">
-                GitHub
+                主页
               </a>
             )}
             {blogUrl && (
               <a className="button button--secondary" href={blogUrl} target="_blank">
-                Blog
+                联系方式
               </a>
             )}
           </div>

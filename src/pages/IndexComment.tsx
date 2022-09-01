@@ -5,8 +5,8 @@ import  Comment  from "../components/Comment";
 function IndexComment() {
     return (
         <Section
-            title="一些关于基地的评价🥰"
-            description="这个页面是对基地的一些评价，欢迎发言😎"
+            title="心灵之声🥰"
+            description="该栏是群众对于北流市电视台的评价，欢迎发言😎"
             bannerStyle={{ width: "80%" }}>
             <Comment></Comment>
         </Section>

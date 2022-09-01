@@ -8,30 +8,37 @@
  */
 const members: Member[] = [
   {
-    name: 'yww',
-    avatar: 'github:jaslli',
-    description: '表面很菜，其实很强',
+    name: '黎三哥',
+    avatar: 'https://s2.loli.net/2022/09/01/3BcuKJXQENVoFmS.jpg',
+    description: '通过一些事,看清一些人',
     githubUrl: 'https://github.com/jaslli',
     blogUrl: 'https://yww52.com/',
   },
   {
-    name: 'yeshan333',
-    avatar: 'github:yeshan333',
-    description: '玄学爱好者&摸🐟大师，资深混子',
+    name: '杨远航',
+    avatar: 'https://s2.loli.net/2022/09/01/gRlAYrUcjGky2NV.jpg',
+    description: '失败是因为坚持的不够',
     githubUrl: 'https://github.com/yeshan333',
     blogUrl: 'https://shansan.top',
   },
   {
-    name: 'Sustart',
-    avatar: 'https://cdn.jsdelivr.net/gh/MrGo123/asset@2020-1-2-1.0/headPortrait/mybloghp.jpg',
-    description: '赶紧学习',
+    name: '杨光登',
+    avatar: 'https://s2.loli.net/2022/09/01/szIaWlmyVHTLSM5.jpg',
+    description: '路遥知马力，日久见人心',
     githubUrl: 'https://github.com/MrGo123',
     blogUrl: 'https://zy68.top/'
   },
   {
-    name: 'redhat',
-    avatar: 'github:redhat123456',
-    description: '题不可一日不刷',
+    name: '谭梦晓',
+    avatar: 'https://s2.loli.net/2022/09/01/V1PX8EUHmJ3nciC.jpg',
+    description: '我走得很慢，但是我从来不会后退',
+    githubUrl: 'https://github.com/redhat123456',
+    blogUrl: 'https://redhat123456.github.io/router_index/'
+  },
+  {
+    name: '黄昭良',
+    avatar: 'https://s2.loli.net/2022/09/01/kQWc8PnbouNxhCd.jpg',
+    description: '人生坎坎坷坷，跌跌撞撞那是在所难免',
     githubUrl: 'https://github.com/redhat123456',
     blogUrl: 'https://redhat123456.github.io/router_index/'
   },
