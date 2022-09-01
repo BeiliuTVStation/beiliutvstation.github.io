@@ -57,7 +57,7 @@ export default function App() {
             <Link
               className={
                 'button button--outline button--secondary button--lg'}
-              to={"https://github.com/seven-innovation-base/official-website/issues/86"}>
+              to={"https://github.com/BeiliuTVStation/beiliutvstation.github.io/issues/2"}>
               我也来说几句
             </Link>
         </div>
