@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkseven_innovation_base_website=self.webpackChunkseven_innovation_base_website||[]).push([[6867],{644:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","name":"\u65e5\u5e38","count":1,"permalink":"/blog/tags/\u65e5\u5e38"}')}}]);
