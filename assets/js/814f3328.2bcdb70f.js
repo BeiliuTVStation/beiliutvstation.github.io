@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkseven_innovation_base_website=self.webpackChunkseven_innovation_base_website||[]).push([[535],{45641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u592e\u89c6\u300a\u5730\u7406\u4e2d\u56fd\u300b\u4e13\u9898\u8bb0\u5f55\u7247\u5728\u5317\u6d41\u5f00\u62cd\uff01","permalink":"/blog/dilizhongguo"}]}')}}]);
