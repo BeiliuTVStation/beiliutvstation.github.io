@@ -68,8 +68,8 @@ module.exports = {
         {
           title: '更多',
           items: [{
-              label: '博客',
-              to: 'blog',
+              label: '大美北流APP',
+              to: 'https://raw.githubusercontent.com/BeiliuTVStation/application/main/com.xinhuamm.d3021.apk',
             },
             {
               label: 'GitHub',

@@ -29,7 +29,7 @@ function MembersWall() {
     <Layout title="团队成员">
       <main>
         <div className="text--center margin-vert--lg">
-          <h1>电视台成员</h1>
+          <h1>北流广播电视台成员</h1>
           <p>Members</p>
         </div>
         <div className="container">
