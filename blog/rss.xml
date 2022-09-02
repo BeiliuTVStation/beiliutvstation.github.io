@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>北流市电视台 Blog</title>
+        <title>北流广播电视台 Blog</title>
         <link>https://beiliutvstation.github.io/blog</link>
-        <description>北流市电视台 Blog</description>
+        <description>北流广播电视台 Blog</description>
         <lastBuildDate>Thu, 20 May 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>

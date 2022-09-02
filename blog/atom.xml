@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://beiliutvstation.github.io/blog</id>
-    <title>北流市电视台 Blog</title>
+    <title>北流广播电视台 Blog</title>
     <updated>2021-05-20T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://beiliutvstation.github.io/blog"/>
-    <subtitle>北流市电视台 Blog</subtitle>
+    <subtitle>北流广播电视台 Blog</subtitle>
     <icon>https://beiliutvstation.github.io/img/logo.png</icon>
     <entry>
         <title type="html"><![CDATA[央视《地理中国》专题记录片在北流开拍！]]></title>
