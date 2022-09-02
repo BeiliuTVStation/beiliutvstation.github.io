@@ -132,7 +132,7 @@ const data = [
 
 function HistoricalHonor() {
   return (
-    <Layout title="Hello">
+    <Layout title="荣誉">
       <main>
         <div className="container">
           <div className="text--center margin-vert--lg">

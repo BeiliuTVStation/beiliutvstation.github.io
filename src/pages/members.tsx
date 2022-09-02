@@ -26,7 +26,7 @@ function MemberList() {
 
 function MembersWall() {
   return (
-    <Layout title="团队成员">
+    <Layout title="电视台成员">
       <main>
         <div className="text--center margin-vert--lg">
           <h1>北流广播电视台成员</h1>
