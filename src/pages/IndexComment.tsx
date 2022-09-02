@@ -6,7 +6,7 @@ function IndexComment() {
     return (
         <Section
             title="心灵之声🥰"
-            description="该栏是群众对于北流市电视台的评价，欢迎发言😎"
+            description="该栏是群众对于北流广播电视台的评价，欢迎发言😎"
             bannerStyle={{ width: "80%" }}>
             <Comment></Comment>
         </Section>

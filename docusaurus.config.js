@@ -1,6 +1,6 @@
 module.exports = {
   // plugins: [require.resolve("docusaurus-plugin-less")],
-  title: '北流市电视台',
+  title: '北流广播电视台',
   tagline: '创新、求真、务实、传播',
   url: 'https://beiliutvstation.github.io/',
   baseUrl: '/',
@@ -11,7 +11,7 @@ module.exports = {
   themeConfig: {
     hideableSidebar: true,
     navbar: {
-      title: '北流市电视台',
+      title: '北流广播电视台',
       logo: {
         alt: 'Site Logo',
         src: 'img/logo.png',
