@@ -2,11 +2,11 @@ module.exports = {
   // plugins: [require.resolve("docusaurus-plugin-less")],
   title: '北流市电视台',
   tagline: '创新、求真、务实、传播',
-  url: 'https://seven-innovation-base.github.io',
+  url: 'https://beiliutvstation.github.io/',
   baseUrl: '/',
   favicon: 'img/logo.png',
-  organizationName: 'seven-innovation-base', // Usually your GitHub org/user name.
-  projectName: 'seven-innovation-base.github.io', // Usually your repo name.
+  organizationName: 'beiliutvstation', // Usually your GitHub org/user name.
+  projectName: 'beiliutvstation.github.io', // Usually your repo name.
   deploymentBranch: 'master',
   themeConfig: {
     hideableSidebar: true,
@@ -38,7 +38,7 @@ module.exports = {
 		  position: 'left'
 		},
         {
-          href: 'https://github.com/seven-innovation-base/',
+          href: 'https://github.com/BeiliuTVStation',
           className: 'header-github-link',
           position: 'right',
         },
@@ -46,27 +46,13 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      links: [{
-          title: '文档',
-          items: [{
-              label: 'Git协作练习',
-              to: 'https://seven-innovation-base.github.io/Git2Github-practice/',
-            },
-            {
-              label: '老版本文档',
-              to: 'https://seveninnovationbasedoc.readthedocs.io/zh_CN/latest/',
-            },
-          ],
-        },
+      links: [
         {
           title: '社区',
-          items: [{
-              label: 'QQ 群',
-              href: 'https://mypic-1258313760.cos.ap-guangzhou.myqcloud.com/img/20200530125127.jpg',
-            },
+          items: [
             {
               label: '站点问题反馈',
-              href: 'https://github.com/seven-innovation-base/official-website/issues',
+              href: 'https://github.com/BeiliuTVStation/beiliutvstation.github.io/issues',
             },
             /*
             {
@@ -87,23 +73,23 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus/',
+              href: 'https://github.com/BeiliuTVStation',
             },
           ],
         },
         {
           title: '常用链接',
           items: [{
-              label: '桂电官网',
-              href: 'https://www.guet.edu.cn/',
+              label: '广西壮族自治区人民政府',
+              href: 'http://www.gxzf.gov.cn/',
             },
             {
-              label: '学院官网',
-              href: 'https://www.guet.edu.cn/dept7/',
+              label: '广西玉林市人民政府',
+              href: 'http://www.yulin.gov.cn/#',
             },
             {
-              label: '桂电信技中心',
-              href: 'https://www.guet.edu.cn/xjzx/index.htm',
+              label: '广西玉林北流市人民政府官网',
+              href: 'http://www.beiliu.gov.cn/',
             },
           ],
         },
@@ -111,12 +97,16 @@ module.exports = {
           title: '友情链接',
           items: [
             {
-              label: '三院科协',
-              href: 'https://hello.kexie.space/',
+              label: '共产党员网',
+              href: 'https://www.12371.cn/',
             },
-	    {
-              label: '校基地软件部',
-              href: 'https://csd.guet.ltd/',
+	          {
+              label: '陶瓷小镇',
+              href: 'http://www.gxtcxz.com/index.html',
+            },
+            {
+              label: '玉林市广播电视网',
+              href: 'http://www.yltvb.com/fccommon/home/index?plate_id=391',
             },
           ],
         },
@@ -124,8 +114,8 @@ module.exports = {
           title: '社区合作伙伴',
           items: [
             {
-              label: '牛客网',
-              href: 'https://www.nowcoder.com/',
+              label: '广东海利集团有限集团',
+              href: 'http://www.hailea.com/page115',
             },
           ],
         },
@@ -137,7 +127,7 @@ module.exports = {
         href: '',
       },
       */
-      copyright: `Copyright © 2003-${new Date().getFullYear()} Seven Innovation Base. Built with Docusaurus.`,
+      copyright: `Copyright © 2003-${new Date().getFullYear()} BeiLiuTVstation. `,
     },
   },
   presets: [
