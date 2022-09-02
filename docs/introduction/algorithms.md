@@ -9,3 +9,11 @@ sidebar_label: 北流新闻
   - 政府要事
   - 北流人物
   - 城市建设
+  - 文化盛事
+
+
+
+![5.PNG](https://s2.loli.net/2022/09/02/ACMN1cQL5vIkfbB.png)
+
+
+![7.PNG](https://s2.loli.net/2022/09/02/VB3wKgcFpmO9dIj.png)
