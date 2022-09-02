@@ -29,7 +29,7 @@ module.exports = {
         },
         {
           to: 'members',
-          label: '团队成员',
+          label: '电视台成员',
           position: 'left'
         },
 		{

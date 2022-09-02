@@ -136,8 +136,8 @@ function HistoricalHonor() {
       <main>
         <div className="container">
           <div className="text--center margin-vert--lg">
-            <h1>近年参赛获奖</h1>
-            <p>很多，还在整理当中，下面展示是近年国家级、省部级获奖的一部分......</p>
+            <h1>近些年获得的荣誉</h1>
+            <p>很多，还在整理当中，下面展示是近年国家级、省部级获得荣誉的一部分......</p>
           </div>
           <Table
             dataSource={data} columns={columns} pagination={false}
