@@ -138,12 +138,12 @@ module.exports = {
           // It is recommended to set document id as docs home page (`docs/` path).
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/seven-innovation-base/official-website/tree/main',
+          editUrl: 'https://github.com/BeiliuTVStation/beiliutvstation.github.io/tree/main',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl: 'https://github.com/seven-innovation-base/official-website/tree/main',
+          editUrl: 'https://github.com/BeiliuTVStation/beiliutvstation.github.io/tree/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
