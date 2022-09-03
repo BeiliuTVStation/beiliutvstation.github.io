@@ -1,12 +1,8 @@
-![Site CI](https://github.com/seven-innovation-base/official-website/workflows/Site%20CI/badge.svg) ![pr badgen](https://badgen.net/github/open-prs/seven-innovation-base/official-website/) ![last commit](https://badgen.net/github/last-commit/seven-innovation-base/official-website/main) ![contributors](https://badgen.net/github/contributors/seven-innovation-base/official-website) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-
 > 国内 GitHub 访问缓慢问题解决方案：https://github.com/521xueweihan/GitHub520
 
 # 简介
 
-这里是桂林电子科技大学数学与计算科学学院创新创业实践基地的官方站点。站点基于 Facebook 开源站点生成器 [Docusaurus](https://github.com/facebook/docusaurus) 构建，当前使用版本：[2.0.0-beta.18](https://v2.docusaurus.io/)。项目使用 [GitHub Action](https://github.com/seven-innovation-base/official-website/actions) 进行 CI/CD。
+这里是北流广播电视台的官方站点。站点基于 Facebook 开源站点生成器 [Docusaurus](https://github.com/facebook/docusaurus) 构建，当前使用版本：[2.0.0-beta.18](https://v2.docusaurus.io/)。项目使用 [GitHub Action](https://github.com/seven-innovation-base/official-website/actions) 进行 CI/CD。
 
 项目的 GitHub Actions 简介 - [.github/intro.md)](.github/intro.md)
 
@@ -78,10 +74,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://redhat123456.github.io/"><img src="https://avatars.githubusercontent.com/u/57751257?v=4?s=100" width="100px;" alt=""/><br /><sub><b>redhat123456</b></sub></a><br /><a href="https://github.com/seven-innovation-base/official-website/commits?author=redhat123456" title="Documentation">📖</a> <a href="#maintenance-redhat123456" title="Maintenance">🚧</a></td>
-    <td align="center"><a href="https://zy68.top"><img src="https://avatars.githubusercontent.com/u/53072382?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sustart</b></sub></a><br /><a href="https://github.com/seven-innovation-base/official-website/commits?author=MrGo123" title="Documentation">📖</a></td>
-    <td align="center"><a href="http://higgins995.top"><img src="https://avatars.githubusercontent.com/u/67410832?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Higgins995</b></sub></a><br /><a href="https://github.com/seven-innovation-base/official-website/commits?author=Higgins995" title="Documentation">📖</a> <a href="https://github.com/seven-innovation-base/official-website/issues?q=author%3AHiggins995" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://github.com/Z233"><img src="https://avatars.githubusercontent.com/u/7451883?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Z233</b></sub></a><br /><a href="https://github.com/seven-innovation-base/official-website/commits?author=Z233" title="Code">💻</a></td>
-    <td align="center"><a href="http://yuuza.net"><img src="https://avatars.githubusercontent.com/u/14901890?v=4?s=100" width="100px;" alt=""/><br /><sub><b>lideming</b></sub></a><br /><a href="https://github.com/seven-innovation-base/official-website/commits?author=lideming" title="Code">💻</a> <a href="https://github.com/seven-innovation-base/official-website/issues?q=author%3Alideming" title="Bug reports">🐛</a></td>
+    
   </tr>
 </table>
 
