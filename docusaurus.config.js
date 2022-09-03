@@ -24,7 +24,7 @@ module.exports = {
         },
         {
           to: 'blog',
-          label: '博客',
+          label: '新闻',
           position: 'left'
         },
         {
