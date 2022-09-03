@@ -1,12 +1,17 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import { Table, Tag } from 'antd';
-
+import type { ColumnsType } from 'antd/es/table';
 import 'antd/dist/antd.css';
 
 const columns = [
   {
-    title: '名字',
+    title: '作品名称',
+    dataIndex: 'zuopinnames',
+    key: 'zuopinnames',
+  },
+  {
+    title: '作者',
     dataIndex: 'names',
     key: 'names',
     render: names => (
@@ -21,113 +26,117 @@ const columns = [
       </>
     ),
   },
+  
   {
-    title: '比赛',
-    dataIndex: 'contest',
-    key: 'contest',
-  },
-  {
-    title: '奖项级别',
+    title: '奖项、级别',
     key: 'tags',
     dataIndex: 'tags',
-    render: tags  => (
-      <>
-          {tags.map(tag => {
-              let color = "geekblue";
-              switch (tag.substr(tag.length - 2, 2)) {
-                  case "国一":
-                      color = "purple"
-                      break;
-                  case "国二":
-                      color = "magenta"
-                      break;
-                  case "国三":
-                      color = "cyan"
-                      break;
-                  case "省一":
-                      color = "volcano"
-                      break;
-                  case "省二":
-                      color = "orange"
-                      break;
-                  case "省三":
-                      color = "blue"
-                      break;
-              }
-              return (
-                  <Tag color={color} key={tag}>
-                      {tag.toUpperCase()}
-                  </Tag>
-              );
-          })}
-      </>
-  ),
+  },
+  {
+    title: '获奖时间',
+    dataIndex: 'time',
+    key: 'time',
+  },
+  {
+    title: '颁奖单位',
+    key: 'danwei',
+    dataIndex: 'danwei',
   },
 ];
 
 const data = [
   {
     key: '1',
-    names: ['谭前程','梁樱兰','梁坤','吴思萱','李春明','梁美华'],
-    contest: '2021年高教社杯全国大学生数学建模竞赛',
-    tags: ['[1人] · 国一', '[1人] · 国二','[2人] · 省一','[1人] · 省二','[3人] · 省三'],
+    zuopinnames:'《北流田心村脱贫崛起之路》',
+    names: ['黎三华','李国伟'],
+    time: '2020年8月21日',
+    tags: '2019年度广西广播电视和网络视听优秀作品二等奖（县级社教专题）',
+    danwei:'自治区广播电视局、广西广电与网络视听协会',
   },
   {
     key: '2',
-    names: ['习宇兴','何壮艺','杨再骥','梁坤','李春明','谭前程'],
-    contest: '第十二届蓝桥杯全国软件和信息技术专业人才大赛',
-    tags: ['[1人] · 国二', '[2人] · 国优','[4人] · 省一','[2人] · 省二','[1人] · 省三'],
+    zuopinnames:'《北流田心村脱贫崛起之路》',
+    names: ['白东灵','杨海霞'],
+    time: '2020年8月21日',
+    tags: '2019年度广西广播电视和网络视听优秀作品二等奖（县级广播主持）',
+    danwei:'自治区广播电视局、广西广电与网络视听协会',
   },
   {
     key: '3',
-    names: ['吕少梅','梁樱兰','谭前程'],
-    contest: '第八届全国金融与证券投资模拟实训大赛',
-    tags: ['[2人] · 国二', '[1人] · 国三'],
+    zuopinnames:'《基层是践行“四力”的最好战场》',
+    names: ['自治区广播电视局'],
+    time: '2020年8月21日',
+    tags: '2019年度广西广播电视和网络视听优秀作品三等奖（广播电视论文）',
+    danwei:'自治区广播电视局、广西广电与网络视听协会',
   },
   {
     key: '4',
-    names: ['韦宇敬','梁坤','谭前程'],
-    contest: '第七届中国国际“互联网+”大学生创新创业大赛“数广集团杯”',
-    tags: ['[3人] · 省三'],
+    zuopinnames:'《乡村振兴“河村模式”：从输血到造血可持续发展》',
+    names: ['中广联合会城市电视台电视新闻委员会'],
+    time: '2021年6月10日',
+    tags: '2019-2020年度中国广播电视大奖电视新闻节目长消息类三等奖',
+    danwei:'自治区广播电视局、广西广电与网络视听协会',
   },
   {
     key: '5',
-    names: ['梁樱兰'],
-    contest: '第十届正太杯市场调查分析大赛',
-    tags: [ '[1人] · 国三'],
+    zuopinnames:'《北流有个“美丽乡村”设计院》',
+    names: ['杨光登','苏新荔'],
+    time: '2021年8月30日',
+    tags: '2020年度广西广播电视和网络视听优秀作品二等奖（县级广播长消息）',
+    danwei:'自治区广播电视局、广西广电与网络视听协会',
   },
   {
     key: '6',
-    names: ['贺亚琳','陶晓莹','梁智清'],
-    contest: '第十一届正太杯市场调查分析大赛',
-    tags: [ '[3人] · 国三'],
+    zuopinnames:'《读写不息30载 55岁修车师傅黄正旺夺得大业文学新人奖》',
+    names: ['黎三华','林欣洁'],
+    time: '2021年8月30日',
+    tags: '2020年度广西广播电视和网络视听优秀作品二等奖（县级广播长消息）',
+    danwei:'自治区广播电视局、广西广电与网络视听协会',
   },
   {
     key: '7',
-    names: ['梁樱兰','梁坤','贺亚琳','陶晓莹','梁智清'],
-    contest: '第九届泰迪杯',
-    tags: [ '[5人] · 国三'],
+    zuopinnames:'《北流：爱心帮助，失散25年川籍男子圆了回家梦》',
+    names: ['陈军'],
+    time: '2021年8月30日',
+    tags: '2020年度广西广播电视和网络视听优秀作品二等奖（县级电视长消息）',
+    danwei:'自治区广播电视局、广西广电与网络视听协会',
   },
   {
     key: '8',
-    names: ['习宇兴','陶晓莹'],
-    contest: '第十七届“挑战杯”全国大学生课外学术科技作品',
-    tags: [ '[1人] · 国二'],
+    zuopinnames:'《百香果熟了》',
+    names: ['蒙昭亮','刘仿','顾彬','林钢','钟义勇','李壮丽','钟丹','黄沈黎'],
+    time: '2021年8月30日',
+    tags: '2020年度广西广播电视和网络视听优秀作品二等奖（网络电影、微电影）',
+    danwei:'自治区广播电视局、广西广电与网络视听协会',
   },
   {
     key: '9',
-    names: ['谭前程'],
-    contest: '第十一届MathorCup数学建模大赛',
-    tags: [ '[1人] · 国三'],
+    zuopinnames:'《带你看看我的家乡--廉政清风满竹林》',
+    names: ['钟义勇','钟丹','苏新荔','梁议尹'],
+    time: '2021年8月',
+    tags: '喜迎党的二十大·我们的新时代”第四届“三月三”网络短视频大赛优秀作品奖',
+    danwei:'广西自治区广播电视局',
   },
   {
     key: '10',
-    names: ['梁樱兰'],
-    contest: '第四届中青杯全国大学生数学建模',
-    tags: [ '[1人] · 国二'],
+    zuopinnames:'《北流有个“美丽乡村”设计院》',
+    names: ['杨光登','苏新荔'],
+    time: '2021年10月',
+    tags: '2020年度广西新闻奖三等奖（广播消息）',
+    danwei:'广西新闻工作者协会',
   },
+  {
+    key: '11',
+    zuopinnames:'',
+    names: ['北流广播电视台'],
+    time: '2021年7月',
+    tags: '先进基层党组织',
+    danwei:'北流市直机关工委',
+  },
+  
 
 ];
+
 
 
 function HistoricalHonor() {
@@ -142,7 +151,7 @@ function HistoricalHonor() {
           <Table
             dataSource={data} columns={columns} pagination={false}
           />
-        </div>
+          </div>
       </main>
     </Layout>
   );
