@@ -2,7 +2,7 @@ module.exports = {
   // plugins: [require.resolve("docusaurus-plugin-less")],
   title: '北流广播电视台',
   tagline: '创新、求真、务实、传播',
-  url: 'https://beiliutvstation.github.io/',
+  url: 'https://xn--djrqtm7w2mgx1ld4l968a.cn',
   baseUrl: '/',
   favicon: 'img/logo.png',
   organizationName: 'beiliutvstation', // Usually your GitHub org/user name.
