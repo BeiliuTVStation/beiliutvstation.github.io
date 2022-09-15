@@ -28,7 +28,7 @@ const members1  = [
     blogUrl: 'https://redhat123456.github.io/router_index/'
   },
   {
-    name: '顾琳',
+    name: '顾彬',
     avatar: 'https://s2.loli.net/2022/09/03/FtrWVUXJq2AxIgH.jpg',
     description: '领导',
     githubUrl: 'https://github.com/redhat123456',
