@@ -3,14 +3,14 @@ module.exports = {
     // 相对于 docs directory
     北流广播电视台简介: ['intro'],
     公告: [
-      'notice/holiday-practice-1',
+      'notice/beiliu_low-carbon',
       'notice/2021-05-20-beiliu',
     ],
     主要新闻节目简介: [
-      'introduction/Algorithms',
-      'introduction/Software',
-      'introduction/information-security',
-      'introduction/Big-Data'
+      'show_introduction/baby_lets_Go',
+      'show_introduction/Beiliu_new',
+      'show_introduction/happy_young_up',
+      'show_introduction/healthy'
     ],
     
   },
